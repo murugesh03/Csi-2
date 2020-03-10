@@ -1,0 +1,28 @@
+@import "../../utilities/variables.scss";
+.header {
+  background-color: $secondary-background;
+  display: flex;
+  justify-content: space-evenly;
+  p {
+    color: $primary-background;
+    font-size: 1rem;
+  }
+  .header-title {
+    color: $primary-background;
+    margin: 2rem 0;
+    padding: 3rem 1rem;
+  }
+  .header-left {
+    display: flex;
+    img {
+      margin: 2rem 0;
+    }
+  }
+  .social-media-icons {
+    margin: 5rem 0;
+    .icons {
+      margin-left: 1rem;
+      color: $primary-background;
+    }
+  }
+}

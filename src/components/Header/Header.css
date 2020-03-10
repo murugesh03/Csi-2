@@ -1,0 +1,40 @@
+.header {
+  background-color: #ffeff6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header p {
+  color: #b5316a;
+  font-size: 1rem;
+}
+
+.header .header-title {
+  color: #b5316a;
+  margin: 2rem 0;
+  padding: 3rem 1rem;
+}
+
+.header .header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header-left img {
+  margin: 2rem 0;
+}
+
+.header .social-media-icons {
+  margin: 5rem 0;
+}
+
+.header .social-media-icons .icons {
+  margin-left: 1rem;
+  color: #b5316a;
+}
+/*# sourceMappingURL=Header.css.map */
