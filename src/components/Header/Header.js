@@ -7,7 +7,7 @@ import { Grid } from "@material-ui/core";
 import { Facebook, Twitter, YouTube } from "@material-ui/icons";
 const Header = () => {
   return (
-    <Grid item md={12}>
+    <Grid item md={12} sm={6}>
       <div className="header">
         <div className="header-left">
           <img src={CsiLogo} alt="Csi Logo" />
@@ -21,7 +21,6 @@ const Header = () => {
           <YouTube className="icons" />
         </div>
       </div>
-
       <NavBar />
     </Grid>
   );
