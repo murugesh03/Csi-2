@@ -7,10 +7,13 @@ import "./News.scss";
 const News = () => {
   return (
     <Fragment>
-      {" "}
-      <Grid item md={6} className="news-image">
+      <Grid item className="news-image">
         <Grid className="image1">
           <img src={Cross} alt="cross" />
+          <div className="image-text1">Latest</div>
+          <div className="image-text2">
+            Christian Education Department of the CSI{" "}
+          </div>
         </Grid>
         <Grid className="image2">
           <img src={Sea} alt="sea" />
