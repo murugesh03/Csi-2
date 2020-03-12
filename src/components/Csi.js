@@ -1,14 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "./Header/Header";
 import MainArea from "./MainArea/MainArea";
 import "./Csi.scss";
 
 const Csi = () => {
   return (
-    <div className="csi">
+    <Fragment>
       <Header />
       <MainArea />
-    </div>
+    </Fragment>
   );
 };
 

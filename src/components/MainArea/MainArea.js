@@ -1,14 +1,19 @@
-import React from "react";
-import { Container, Grid } from "@material-ui/core";
+import React, { Fragment } from "react";
+import { Grid, Container } from "@material-ui/core";
 import News from "./News/News";
+import "./MainArea.scss";
+import Ribbon from "./News/Ribbon/Ribbon";
 
 const MainArea = () => {
   return (
-    <Container>
-      <Grid container>
-        <News />
-      </Grid>
-    </Container>
+    <Fragment>
+      <Container>
+        <Grid className="main-area" container={true}>
+          <News />
+        </Grid>
+      </Container>
+      <Ribbon/>
+    </Fragment>
   );
 };
 

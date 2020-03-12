@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, AppBar, Tabs, Tab } from "@material-ui/core";
-import TabPanel from "@material-ui/core/Tabs";
+// import TabPanel from "@material-ui/core/Tabs";
 import "./NavBar.scss";
 // import TabPanel from '@material-ui/core'
 
@@ -17,9 +17,7 @@ const NavBar = () => {
           <Tab label="Campaigns" />
         </Tabs>
       </AppBar>
-      <TabPanel>Item One</TabPanel>
-      <TabPanel>Item Two</TabPanel>
-      <TabPanel>Item Three</TabPanel>
+      
     </Grid>
   );
 };

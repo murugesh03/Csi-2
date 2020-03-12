@@ -12,17 +12,27 @@ const News = () => {
           <img src={Cross} alt="cross" />
           <div className="image-text1">Latest</div>
           <div className="image-text2">
-            Christian Education Department of the CSI{" "}
+            Christian Education Department of the CSI
           </div>
         </Grid>
         <Grid className="image2">
           <img src={Sea} alt="sea" />
+          <div className="image-text3">
+            Christian Education Department of the CSI
+          </div>
         </Grid>
         <Grid className="image3">
           <img src={Sea} alt="sea" />
+          <div className="image-text3">
+            Christian Education Department of the CSI
+          </div>
         </Grid>
         <Grid className="image4">
           <img src={Costal} alt="sea" />
+          <div className="image-text4">Latest</div>
+          <div className="image-text5">
+            Christian Education Department of the CSI
+          </div>
         </Grid>
       </Grid>
     </Fragment>

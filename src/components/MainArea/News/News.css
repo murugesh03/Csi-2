@@ -1,14 +1,13 @@
 .news-image {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
+  -ms-grid-columns: (2fr)[1] 1fr;
+      grid-template-columns: repeat(1, 2fr) 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   grid-column-gap: 0rem;
   grid-row-gap: 0.5rem;
-  position: relative;
-      grid-template-areas: "image1  image2 image3  " "image1  image4 image4 ";
+      grid-template-areas: "image1  image2 image3 " "image1  image4 image4 ";
 }
 
 .image1 {
@@ -16,6 +15,7 @@
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: image1;
+  position: relative;
 }
 
 .image1 img {
@@ -26,12 +26,14 @@
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: image2;
+  position: relative;
 }
 
 .image3 {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: image3;
+  position: relative;
 }
 
 .image4 {
@@ -39,6 +41,11 @@
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: image4;
+  position: relative;
+}
+
+.image4 img {
+  position: absolute;
 }
 
 .image-text2 {
@@ -52,6 +59,24 @@
 }
 
 .image-text1 {
+  position: absolute;
+  background: #b5316a;
+  color: white;
+  padding: 5px 10px 5px 10px;
+}
+
+.image-text3 {
+  position: absolute;
+  font-size: 10px;
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-left: 5px solid #b5316a;
+  padding: 1rem;
+}
+
+.image-text4 {
   position: absolute;
   background: #b5316a;
   color: white;
